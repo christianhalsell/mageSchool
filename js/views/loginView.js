@@ -21,7 +21,5 @@ APP.LoginView = Backbone.View.extend ({
     render: function(e){
         this.$el.html( this.template(this.model.toJSON()) );
 		return this;
-
-		console.log("success in rendering login view!");
     }
 });

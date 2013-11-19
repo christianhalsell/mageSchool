@@ -6,8 +6,9 @@ var path = require("path"),
 var app = express()
             .use(express.static(__dirname,
                                 path.join(__dirname, "bower_components"),
-                                path.join(__dirname, "js")))
-            .use(express.bodyParser()); // This is causing the warning in Forego
+                                path.join(__dirname, "js")));
+            app.use(express.urlencoded());
+            app.use(express.json());
 
 var db = database.playerDatabase;
 
@@ -15,17 +16,15 @@ app.get("/players", function(req, res){
     res.json(db);
 });
 
-var id = _.max(db, function(x){ return x.id; }).id;
+// var id = _.max(db, function(x){ return x.id; }).id;
 
-var getId = function(){
-    return ++id;
-};
+// var getId = function(){
+//     return ++id;
+// };
 
 app.post("/players", function(req, res){
-    //req.body.id = getId();
+    req.body.id = getId();
     db.push(req.body);
-    //res.end();
-    //console.log('test log');
 });
 
 var port = process.env.PORT || 3000;

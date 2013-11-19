@@ -11,7 +11,92 @@
 
 <body>
 <div id="container">
+<div id="spellbook">
 
+<div id="logIn" class="clearfix">
+	<div class="labelWrap">
+	<label>Name:</label><br>
+	<input type="text" name="name">
+	</div>
+
+	<div class="labelWrap">
+	<label>Email:</label><br>
+	<input type="text" name="email">
+	</div>
+	<!--<input type="submit" value="submit">-->
+</div><!-- /logIn -->
+
+<div id="spellColWrap" class="clearfix">
+	<div class="spellCol fireBG">
+		<h2>Fire</h2>
+			<button id="spellbookFire1" class="bookTypeFire bookLevel1"></button>
+			<h3>Fire 1</h3>
+
+			<button href="#" id="spellbookFire2" class="bookTypeFire bookLevel2"></button>
+			<h3>Fire 2</h3>
+
+			<button href="#" id="spellbookFire3" class="bookTypeFire bookLevel3"></button>
+			<h3>Fire 3</h3>
+	</div>
+
+	<div class="spellCol woodBG">
+		<h2>Wood</h2>
+			<button href="#" id="spellbookWood1" class="bookTypeWood bookLevel1"></button>
+			<h3>Wood 1</h3>
+
+			<button href="#" id="spellbookWood2" class="bookTypeWood bookLevel2"></button>
+			<h3>Wood 2</h3>
+
+			<button href="#" id="spellbookWood3" class="bookTypeWood bookLevel3"></button>
+			<h3>Wood 3</h3>
+	</div>
+
+	<div class="spellCol waterBG">
+		<h2>Water</h2>
+			<button href="#" id="spellbookWater1" class="bookTypeWater bookLevel1"></button>
+			<h3>Water 1</h3>
+
+			<button href="#" id="spellbookWater2" class="bookTypeWater bookLevel2"></button>
+			<h3>Water 2</h3>
+
+			<button href="#" id="spellbookWater3" class="bookTypeWater bookLevel3"></button>
+			<h3>Water 3</h3>
+	</div>
+
+	<div class="spellCol metalBG">
+		<h2>Metal</h2>
+			<button href="#" id="spellbookMetal1" class="bookTypeMetal bookLevel1"></button>
+			<h3>Metal 1</h3>
+
+			<button href="#" id="spellbookMetal2" class="bookTypeMetal bookLevel2"></button>
+			<h3>Metal 2</h3>
+
+			<button href="#" id="spellbookMetal3" class="bookTypeMetal bookLevel3"></button>
+			<h3>Metal 3</h3>
+	</div>
+
+	<div class="spellCol earthBG">
+		<h2>Earth</h2>
+			<button href="#" id="spellbookEarth1" class="bookTypeEarth bookLevel1"></button>
+			<h3>Earth 1</h3>
+
+			<button href="#" id="spellbookEarth2" class="bookTypeEarth bookLevel2"></button>
+			<h3>Earth 2</h3>
+
+			<button href="#" id="spellbookEarth3" class="bookTypeEarth bookLevel3"></button>
+			<h3>Earth 3</h3>
+	</div>
+
+</div><!-- /spellColWrap -->
+
+<div id="selectedSpellsWrap">
+		<span id="spellSelected1" class="inactive"></span>
+		<span id="spellSelected2" class="inactive"></span>
+		<span id="spellSelected3" class="inactive"></span>
+</div><!-- /selectedSpellsWrap -->
+
+<button id="commitSpells">Commit</button>
+</div><!-- /spellbook -->
 </div><!-- /container -->
 
 <script src="/bower_components/jquery/jquery.js"></script>

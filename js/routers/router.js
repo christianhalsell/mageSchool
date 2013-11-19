@@ -11,7 +11,6 @@ APP.Router = Backbone.Router.extend({
 				model: APP.playerModel
 			});
 			loginView.render();
-			//$(document.body).html(loginView.$el);
 			$('#container').html(loginView.$el);
 	},
 

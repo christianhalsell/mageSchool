@@ -47,12 +47,12 @@ h3 {font-size:1.2em}
 
 /* ---- LOGIN ---- */
 #logIn {
-	position:relative;
+	/*position:relative;
 	margin-top:20px;
 	width:920px;
 	height:500px;
 	padding:20px;
-	background:white;
+	background:white;*/
 }
 
 /* ---- SPELLBOOK ---- */

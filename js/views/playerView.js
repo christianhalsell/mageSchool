@@ -12,12 +12,5 @@ APP.PlayerView = Backbone.View.extend ({
         }, this);
         
         return this;
-    // },
-
-    // events: {
-    //     "click .spell" : useSpell
-    // },
-    // useSpell: function(event){
-    //     console.log(event)
     }
 });
