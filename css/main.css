@@ -46,7 +46,7 @@ h3 {font-size:1.2em}
 }
 
 /* ---- LOGIN ---- */
-.logIn {
+#logIn {
 	position:relative;
 	margin-top:20px;
 	width:920px;

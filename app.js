@@ -21,11 +21,11 @@ var getId = function(){
     return ++id;
 };
 
-app.post("/login", function(req, res){
-    req.body.id = getId();
+app.post("/players", function(req, res){
+    //req.body.id = getId();
     db.push(req.body);
-    res.end();
-    console.log('test log');
+    //res.end();
+    //console.log('test log');
 });
 
 var port = process.env.PORT || 3000;

@@ -1,6 +1,6 @@
 // The class to set-up the spells used
 APP.Player = Backbone.Model.extend({
-        urlRoot: "/player",
+        urlRoot: "/players",
 	defaults: {
         	id: null,
                 name: null,
