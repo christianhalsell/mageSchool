@@ -1,0 +1,19 @@
+{
+  "name": "mageSchool",
+  "version": "0.0.1",
+  "description": "mageSchool app",
+  "main": "gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "express": "~3.4.4",
+    "backbone": "~1.1.0",
+    "underscore": "~1.5.2",
+    "grunt-contrib-jshint": "~0.7.2"
+  }
+}
