@@ -16,15 +16,23 @@ app.get("/players", function(req, res){
     res.json(db);
 });
 
-// var id = _.max(db, function(x){ return x.id; }).id;
+var id = _.max(db, function(x){ return x.id; }).id;
 
-// var getId = function(){
-//     return ++id;
-// };
+var getId = function(){
+    return ++id;
+};
+
+// app.get("/players/:id", function(req, res){
+//     res.json(db);
+// });
 
 app.post("/players", function(req, res){
     req.body.id = getId();
     db.push(req.body);
+});
+
+app.get("/battle/", function(req, res){
+    res.json(db);
 });
 
 var port = process.env.PORT || 3000;

@@ -45,25 +45,19 @@ h3 {font-size:1.2em}
 	width:960px;
 }
 
-/* ---- LOGIN ---- */
-#logIn {
-	/*position:relative;
-	margin-top:20px;
-	width:920px;
-	height:500px;
-	padding:20px;
-	background:white;*/
-}
-
 /* ---- SPELLBOOK ---- */
 #spellbook {
 	position:relative;
 	margin-top:20px;
 	width:920px;
-	height:500px;
+	height:550px;
 	padding:20px;
 	background:white;
 }
+
+#logIn {margin-bottom:20px}
+
+.labelWrap {margin-right:20px; float:left;}
 
 #spellColWrap {padding:0 50px; background-color:orange;}
 

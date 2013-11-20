@@ -2,7 +2,7 @@ APP.Player = Backbone.Model.extend({
         urlRoot: "/players",
 	defaults: {
         	id: null,
-                name: null,
+                name: "Default Name",
                 email: null,
                 spellLevel1: null,
                 spellLevel2: null,
