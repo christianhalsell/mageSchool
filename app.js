@@ -22,10 +22,6 @@ var getId = function(){
     return ++id;
 };
 
-// app.get("/players/:id", function(req, res){
-//     res.json(db);
-// });
-
 app.post("/players", function(req, res){
     req.body.id = getId();
     db.push(req.body);

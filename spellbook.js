@@ -9,95 +9,95 @@ function spellbookSelect() {
 		var tempTypeLevel = $(this).attr('id');
 		
 		// Check Fire
-		if (tempTypeLevel === 'spellbookFire1') {
+		if (tempTypeLevel === 'fire1') {
 			$('button.bookLevel1').removeClass('selected');
 			$('span#spellSelected1').removeClass().addClass('level1FireSelected');
 			spellLevel1Select = tempTypeLevel;
 		}
 
-		if (tempTypeLevel === 'spellbookFire2') {
+		if (tempTypeLevel === 'fire2') {
 			$('button.bookLevel2').removeClass('selected');
 			$('span#spellSelected2').removeClass().addClass('level2FireSelected');
 			spellLevel2Select = tempTypeLevel;
 		}
 
-		if (tempTypeLevel === 'spellbookFire3') {
+		if (tempTypeLevel === 'fire3') {
 			$('button.bookLevel3').removeClass('selected');
 			$('span#spellSelected3').removeClass().addClass('level3FireSelected');
 			spellLevel3Select = tempTypeLevel;
 		}
 
 		// Check Wood
-		if (tempTypeLevel === 'spellbookWood1') {
+		if (tempTypeLevel === 'wood1') {
 			$('button.bookLevel1').removeClass('selected');
 			$('span#spellSelected1').removeClass().addClass('level1WoodSelected');
 			spellLevel1Select = tempTypeLevel;
 		}
 
-		if (tempTypeLevel === 'spellbookWood2') {
+		if (tempTypeLevel === 'wood2') {
 			$('button.bookLevel2').removeClass('selected');
 			$('span#spellSelected2').removeClass().addClass('level2WoodSelected');
 			spellLevel2Select = tempTypeLevel;
 		}
 
-		if (tempTypeLevel === 'spellbookWood3') {
+		if (tempTypeLevel === 'wood3') {
 			$('button.bookLevel3').removeClass('selected');
 			$('span#spellSelected3').removeClass().addClass('level3WoodSelected');
 			spellLevel3Select = tempTypeLevel;
 		}
 
 		// Check Water
-		if (tempTypeLevel === 'spellbookWater1') {
+		if (tempTypeLevel === 'water1') {
 			$('button.bookLevel1').removeClass('selected');
 			$('span#spellSelected1').removeClass().addClass('level1WaterSelected');
 			spellLevel1Select = tempTypeLevel;
 		}
 
-		if (tempTypeLevel === 'spellbookWater2') {
+		if (tempTypeLevel === 'water2') {
 			$('button.bookLevel2').removeClass('selected');
 			$('span#spellSelected2').removeClass().addClass('level2WaterSelected');
 			spellLevel2Select = tempTypeLevel;
 		}
 
-		if (tempTypeLevel === 'spellbookWater3') {
+		if (tempTypeLevel === 'water3') {
 			$('button.bookLevel3').removeClass('selected');
 			$('span#spellSelected3').removeClass().addClass('level3WaterSelected');
 			spellLevel3Select = tempTypeLevel;
 		}
 
 		// Check Metal
-		if (tempTypeLevel === 'spellbookMetal1') {
+		if (tempTypeLevel === 'metal1') {
 			$('button.bookLevel1').removeClass('selected');
 			$('span#spellSelected1').removeClass().addClass('level1MetalSelected');
 			spellLevel1Select = tempTypeLevel;
 		}
 
-		if (tempTypeLevel === 'spellbookMetal2') {
+		if (tempTypeLevel === 'metal2') {
 			$('button.bookLevel2').removeClass('selected');
 			$('span#spellSelected2').removeClass().addClass('level2MetalSelected');
 			spellLevel2Select = tempTypeLevel;
 		}
 
-		if (tempTypeLevel === 'spellbookMetal3') {
+		if (tempTypeLevel === 'metal3') {
 			$('button.bookLevel3').removeClass('selected');
 			$('span#spellSelected3').removeClass().addClass('level3MetalSelected');
 			spellLevel3Select = tempTypeLevel;
 		}
 
 		// Check Earth
-		if (tempTypeLevel === 'spellbookEarth1') {
+		if (tempTypeLevel === 'earth1') {
 			$('button.bookLevel1').removeClass('selected');
 			$('span#spellSelected1').removeClass().addClass('level1EarthSelected');
 			spellLevel1Select = tempTypeLevel;
 		}
 
-		if (tempTypeLevel === 'spellbookEarth2') {
+		if (tempTypeLevel === 'earth2') {
 			$('button.bookLevel2').removeClass('selected');
 			$('span#spellSelected2').removeClass().addClass('level2EarthSelected');
 			spellLevel2Select = tempTypeLevel;
 		}
 
-		if (tempTypeLevel === 'spellbookEarth3') {
+		if (tempTypeLevel === 'earth3') {
 			$('button.bookLevel3').removeClass('selected');
 			$('span#spellSelected3').removeClass().addClass('level3EarthSelected');
 			spellLevel3Select = tempTypeLevel;

@@ -57,7 +57,9 @@ h3 {font-size:1.2em}
 
 #logIn {margin-bottom:20px}
 
-.labelWrap {margin-right:20px; float:left;}
+label {font-family: 'Eagle Lake', cursive; font-size:24px;}
+
+.labelWrap {margin-right:20px; margin-left:50px; float:left;}
 
 #spellColWrap {padding:0 50px; background-color:orange;}
 
@@ -98,76 +100,91 @@ h3 {font-size:1.2em}
 }
 
 /* Fire */
-.spellCol button#spellbookFire1,
-.level1FireSelected {background:url(/images/iconFire1.jpg) no-repeat 0 0}
+.spellCol button#fire1,
+.level1FireSelected,
+button.fire1 {background:url(/images/iconFire1.jpg) no-repeat 0 0}
 
-.spellCol button#spellbookFire2,
-.level2FireSelected {background:url(/images/iconFire2.jpg) no-repeat 0 0}
+.spellCol button#fire2,
+.level2FireSelected,
+button.fire2 {background:url(/images/iconFire2.jpg) no-repeat 0 0}
 
-.spellCol button#spellbookFire3,
-.level3FireSelected {background:url(/images/iconFire3.jpg) no-repeat 0 0}
+.spellCol button#fire3,
+.level3FireSelected,
+button.fire3 {background:url(/images/iconFire3.jpg) no-repeat 0 0}
 
 /*.spellCol button#spellbookFire1.selected,*/
-.spellCol button#spellbookFire1.selected,
-.spellCol button#spellbookFire2.selected,
-.spellCol button#spellbookFire3.selected {background-position:0 -64px}
+.spellCol button#fire1.selected,
+.spellCol button#fire2.selected,
+.spellCol button#fire3.selected {background-position:0 -64px}
 
 /* Wood */
-.spellCol button#spellbookWood1,
-.level1WoodSelected  {background:url(/images/iconWood1.jpg) no-repeat 0 0}
+.spellCol button#wood1,
+.level1WoodSelected,
+button.wood1  {background:url(/images/iconWood1.jpg) no-repeat 0 0}
 
-.spellCol button#spellbookWood2,
-.level2WoodSelected  {background:url(/images/iconWood2.jpg) no-repeat 0 0}
+.spellCol button#wood2,
+.level2WoodSelected,
+button.wood2  {background:url(/images/iconWood2.jpg) no-repeat 0 0}
 
-.spellCol button#spellbookWood3,
-.level3WoodSelected  {background:url(/images/iconWood3.jpg) no-repeat 0 0}
+.spellCol button#wood3,
+.level3WoodSelected,
+button.wood3  {background:url(/images/iconWood3.jpg) no-repeat 0 0}
 
-.spellCol button#spellbookWood1.selected,
-.spellCol button#spellbookWood2.selected,
-.spellCol button#spellbookWood3.selected {background-position:0 -64px}
+.spellCol button#wood1.selected,
+.spellCol button#wood2.selected,
+.spellCol button#wood3.selected {background-position:0 -64px}
 
 /* Water */
-.spellCol button#spellbookWater1,
-.level1WaterSelected  {background:url(/images/iconWater1.jpg) no-repeat 0 0}
+.spellCol button#water1,
+.level1WaterSelected,
+button.water1  {background:url(/images/iconWater1.jpg) no-repeat 0 0}
 
-.spellCol button#spellbookWater2,
-.level2WaterSelected  {background:url(/images/iconWater2.jpg) no-repeat 0 0}
+.spellCol button#water2,
+.level2WaterSelected,
+button.water2  {background:url(/images/iconWater2.jpg) no-repeat 0 0}
 
-.spellCol button#spellbookWater3,
-.level3WaterSelected  {background:url(/images/iconWater3.jpg) no-repeat 0 0}
+.spellCol button#water3,
+.level3WaterSelected,
+button.water3  {background:url(/images/iconWater3.jpg) no-repeat 0 0}
 
-.spellCol button#spellbookWater1.selected,
-.spellCol button#spellbookWater2.selected,
-.spellCol button#spellbookWater3.selected {background-position:0 -64px}
+.spellCol button#water1.selected,
+.spellCol button#water2.selected,
+.spellCol button#water3.selected {background-position:0 -64px}
 
 /* Metal */
-.spellCol button#spellbookMetal1,
-.level1MetalSelected {background:url(/images/iconMetal1.jpg) no-repeat 0 0}
+.spellCol button#metal1,
+.level1MetalSelected,
+button.metal1 {background:url(/images/iconMetal1.jpg) no-repeat 0 0}
 
-.spellCol button#spellbookMetal2,
-.level2MetalSelected {background:url(/images/iconMetal2.jpg) no-repeat 0 0}
+.spellCol button#metal2,
+.level2MetalSelected,
+button.metal2 {background:url(/images/iconMetal2.jpg) no-repeat 0 0}
 
-.spellCol button#spellbookMetal3,
-.level3MetalSelected {background:url(/images/iconMetal3.jpg) no-repeat 0 0}
+.spellCol button#metal3,
+.level3MetalSelected,
+button.metal3 {background:url(/images/iconMetal3.jpg) no-repeat 0 0}
 
-.spellCol button#spellbookMetal1.selected,
-.spellCol button#spellbookMetal2.selected,
-.spellCol button#spellbookMetal3.selected {background-position:0 -64px}
+.spellCol button#metal1.selected,
+.spellCol button#metal2.selected,
+.spellCol button#metal3.selected {background-position:0 -64px}
 
 /* Earth */
-.spellCol button#spellbookEarth1,
-.level1EarthSelected {background:url(/images/iconEarth1.jpg) no-repeat 0 0}
+.spellCol button#earth1,
+.level1EarthSelected,
+button.earth1 {background:url(/images/iconEarth1.jpg) no-repeat 0 0}
 
-.spellCol button#spellbookEarth2,
-.level2EarthSelected {background:url(/images/iconEarth2.jpg) no-repeat 0 0}
+.spellCol button#earth2,
+.level2EarthSelected,
+button.earth2 {background:url(/images/iconEarth2.jpg) no-repeat 0 0}
 
-.spellCol button#spellbookEarth3,
-.level3EarthSelected {background:url(/images/iconEarth3.jpg) no-repeat 0 0}
+.spellCol button#earth3,
+.level3EarthSelected,
+button.earth3 {background:url(/images/iconEarth3.jpg) no-repeat 0 0}
 
 /*.spellCol button#spellbookEarth1.selected,*/
-.spellCol button#spellbookEarth1.selected,
-.spellCol button#spellbookEarth2.selected,
-.spellCol button#spellbookEarth3.selected {background-position:0 -64px}
+.spellCol button#earth1.selected,
+.spellCol button#earth2.selected,
+.spellCol button#earth3.selected {background-position:0 -64px}
 
 #selectedSpellsWrap {
 	padding:20px 0 20px 20px;
@@ -256,17 +273,27 @@ button#commitSpells {
 }
 
 #player1HPBar {
-	width:60%;
 	height:20px;
 	float:left;
 	background:blue;
 }
 
 #player2HPBar {
-	width:60%;
+	width:1%;
 	height:20px;
 	float:right;
 	background:blue;
+}
+
+#battleDisplay {
+	width:920px;
+	height:260px;
+	position:absolute;
+	left:20px;
+	top:120px;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	background:lavender;
 }
 
 #spellBar {
@@ -279,8 +306,7 @@ button#commitSpells {
 
 button#spellBarLevel1,
 button#spellBarLevel2,
-button#spellBarLevel3,
-a#spellBarLevel3 {
+button#spellBarLevel3 {
 	display:inline-block;
 	width:96px;
 	height:64px;
