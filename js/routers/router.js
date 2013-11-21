@@ -26,8 +26,6 @@ APP.Router = Backbone.Router.extend({
 				$('#container').html(battleView.$el);
 		 	}
 		 })
-				
-
 	},
 
 	playersRoute: function() {
@@ -39,7 +37,6 @@ APP.Router = Backbone.Router.extend({
 				});
 				viewInstance.render();
 				$(document.body).html(viewInstance.$el);
-				console.log(viewInstance);
 			}
 		});
 	}
