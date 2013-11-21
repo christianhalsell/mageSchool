@@ -3,7 +3,6 @@ APP.Player = Backbone.Model.extend({
         defaults: {
                 id: null,
                 name: "Default Name",
-                email: null,
                 spellLevel1: null,
                 spellLevel2: null,
                 spellLevel3: null,

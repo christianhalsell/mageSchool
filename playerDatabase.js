@@ -1,7 +1,6 @@
 var dbPlayer = [{
 	id: 1,
     name: "John Smith",
-    email: "test@test.com",
     spellLevel1: null,
     spellLevel2: null,
     spellLevel3: null,
