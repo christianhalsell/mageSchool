@@ -5,7 +5,7 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     jshint: {
       //filesToCheck: ['app.js','./public/contactlist.js']
-      filesToCheck: ['app.js','mageSchool.js','./js/**/*.js']
+      filesToCheck: ['app.js','spellbook.js','battle.js','./js/**/*.js']
     },
 });
 

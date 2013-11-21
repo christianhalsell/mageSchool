@@ -1,7 +1,7 @@
 APP.Player = Backbone.Model.extend({
         urlRoot: "/players",
-	defaults: {
-        	id: null,
+        defaults: {
+                id: null,
                 name: "Default Name",
                 email: null,
                 spellLevel1: null,
@@ -9,5 +9,5 @@ APP.Player = Backbone.Model.extend({
                 spellLevel3: null,
                 wins: 0,
                 losses: 0
-	}
+        }
 });

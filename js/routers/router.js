@@ -16,16 +16,16 @@ APP.Router = Backbone.Router.extend({
 	},
 
 	battleRoute: function() {
-		 APP.playerCollection1 = new APP.PlayerCollections();
-		 APP.playerCollection1.fetch({
-		 	success: function(collection){
-		 		var battleView = new APP.BattleView({
+		APP.playerCollection1 = new APP.PlayerCollections();
+		APP.playerCollection1.fetch({
+			success: function(collection){
+				var battleView = new APP.BattleView({
 					model: collection.get(2)
 				});
 				battleView.render();
 				$('#container').html(battleView.$el);
-		 	}
-		 })
+			}
+		});
 	},
 
 	playersRoute: function() {
