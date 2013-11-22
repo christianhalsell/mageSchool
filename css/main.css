@@ -114,6 +114,7 @@ button.fire3 {background:url(/images/iconFire3.jpg) no-repeat 0 0}
 
 /*.spellCol button#spellbookFire1.selected,*/
 .spellCol button#fire1.selected,
+button.fire1.selected,
 .spellCol button#fire2.selected,
 .spellCol button#fire3.selected {background-position:0 -64px}
 
@@ -279,20 +280,19 @@ button#commitSpells {
 }
 
 #player2HPBar {
-	width:1%;
 	height:20px;
 	float:right;
 	background:blue;
 }
 
 #battleDisplay {
-	width:920px;
-	height:260px;
+	width:918px;
+	height:258px;
 	position:absolute;
+	font-size:24px;
 	left:20px;
 	top:120px;
-	overflow-x:hidden;
-	overflow-y:scroll;
+	border:1px solid purple;
 	background:lavender;
 }
 
